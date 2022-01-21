@@ -42,6 +42,16 @@ body {
     font-size: 14px;
 }
 
+.cabecalho nav .menu li a {
+    transition: 0.3s ease-in-out;
+}
+
+.cabecalho nav .menu li a:hover {
+    background-color: lightgray;
+    padding: 10px 3px;
+    border-radius: 20px;
+}
+
 .cabecalho nav .btn-search {
     margin-left: 40px;
     border: none;
@@ -67,7 +77,12 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    transition: 0.3s ease-in-out;
 
+}
+
+.container .noticia:hover {
+    box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.267);
 }
 
 .container .noticia .titulo-noticia {
@@ -85,6 +100,11 @@ body {
     border-radius: 15px;
     text-align: center;
     font-weight: 700;
+    transition: 0.3s ease-in-out;
+}
+
+.container .noticia .btn-noticia:hover {
+    background-color: lightgray;
 }
 
 .rodape {
